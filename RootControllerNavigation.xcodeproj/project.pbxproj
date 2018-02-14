@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1E0FE3D7203495DB00F3798B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FE3D6203495DB00F3798B /* AppDelegate.swift */; };
-		1E0FE3D9203495DB00F3798B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FE3D8203495DB00F3798B /* ViewController.swift */; };
-		1E0FE3DC203495DB00F3798B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0FE3DA203495DB00F3798B /* Main.storyboard */; };
 		1E0FE3DE203495DB00F3798B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0FE3DD203495DB00F3798B /* Assets.xcassets */; };
 		1E0FE3E1203495DB00F3798B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0FE3DF203495DB00F3798B /* LaunchScreen.storyboard */; };
 		1E0FE3EC203495DB00F3798B /* RootControllerNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FE3EB203495DB00F3798B /* RootControllerNavigationTests.swift */; };
 		1E0FE3F7203495DB00F3798B /* RootControllerNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FE3F6203495DB00F3798B /* RootControllerNavigationUITests.swift */; };
+		1E0FE4052034960900F3798B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FE4042034960900F3798B /* RootViewController.swift */; };
+		1E0FE4072034963A00F3798B /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FE4062034963A00F3798B /* SplashViewController.swift */; };
+		1E0FE4092034966600F3798B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FE4082034966600F3798B /* LoginViewController.swift */; };
+		1E0FE40B2034968200F3798B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FE40A2034968200F3798B /* MainViewController.swift */; };
+		1E0FE40D2034989300F3798B /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FE40C2034989300F3798B /* ActivityViewController.swift */; };
+		1E0FE40F203498BD00F3798B /* DeeplinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FE40E203498BD00F3798B /* DeeplinkManager.swift */; };
+		1E0FE4142034DFA600F3798B /* ShortcutParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FE4132034DFA600F3798B /* ShortcutParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +41,6 @@
 /* Begin PBXFileReference section */
 		1E0FE3D3203495DB00F3798B /* RootControllerNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RootControllerNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0FE3D6203495DB00F3798B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E0FE3D8203495DB00F3798B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1E0FE3DB203495DB00F3798B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E0FE3DD203495DB00F3798B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E0FE3E0203495DB00F3798B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E0FE3E2203495DB00F3798B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,13 @@
 		1E0FE3F2203495DB00F3798B /* RootControllerNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RootControllerNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0FE3F6203495DB00F3798B /* RootControllerNavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootControllerNavigationUITests.swift; sourceTree = "<group>"; };
 		1E0FE3F8203495DB00F3798B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E0FE4042034960900F3798B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		1E0FE4062034963A00F3798B /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		1E0FE4082034966600F3798B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1E0FE40A2034968200F3798B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1E0FE40C2034989300F3798B /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		1E0FE40E203498BD00F3798B /* DeeplinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkManager.swift; sourceTree = "<group>"; };
+		1E0FE4132034DFA600F3798B /* ShortcutParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,13 @@
 		1E0FE3D5203495DB00F3798B /* RootControllerNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				1E0FE4122034DF8700F3798B /* Deeplink */,
 				1E0FE3D6203495DB00F3798B /* AppDelegate.swift */,
-				1E0FE3D8203495DB00F3798B /* ViewController.swift */,
-				1E0FE3DA203495DB00F3798B /* Main.storyboard */,
+				1E0FE4042034960900F3798B /* RootViewController.swift */,
+				1E0FE4062034963A00F3798B /* SplashViewController.swift */,
+				1E0FE4082034966600F3798B /* LoginViewController.swift */,
+				1E0FE40A2034968200F3798B /* MainViewController.swift */,
+				1E0FE40C2034989300F3798B /* ActivityViewController.swift */,
 				1E0FE3DD203495DB00F3798B /* Assets.xcassets */,
 				1E0FE3DF203495DB00F3798B /* LaunchScreen.storyboard */,
 				1E0FE3E2203495DB00F3798B /* Info.plist */,
@@ -123,6 +137,15 @@
 				1E0FE3F8203495DB00F3798B /* Info.plist */,
 			);
 			path = RootControllerNavigationUITests;
+			sourceTree = "<group>";
+		};
+		1E0FE4122034DF8700F3798B /* Deeplink */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FE4132034DFA600F3798B /* ShortcutParser.swift */,
+				1E0FE40E203498BD00F3798B /* DeeplinkManager.swift */,
+			);
+			path = Deeplink;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +257,6 @@
 			files = (
 				1E0FE3E1203495DB00F3798B /* LaunchScreen.storyboard in Resources */,
 				1E0FE3DE203495DB00F3798B /* Assets.xcassets in Resources */,
-				1E0FE3DC203495DB00F3798B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E0FE3D9203495DB00F3798B /* ViewController.swift in Sources */,
 				1E0FE3D7203495DB00F3798B /* AppDelegate.swift in Sources */,
+				1E0FE4052034960900F3798B /* RootViewController.swift in Sources */,
+				1E0FE40B2034968200F3798B /* MainViewController.swift in Sources */,
+				1E0FE40D2034989300F3798B /* ActivityViewController.swift in Sources */,
+				1E0FE4142034DFA600F3798B /* ShortcutParser.swift in Sources */,
+				1E0FE4092034966600F3798B /* LoginViewController.swift in Sources */,
+				1E0FE4072034963A00F3798B /* SplashViewController.swift in Sources */,
+				1E0FE40F203498BD00F3798B /* DeeplinkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +324,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1E0FE3DA203495DB00F3798B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E0FE3DB203495DB00F3798B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1E0FE3DF203495DB00F3798B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -427,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MH7ZMWJX5;
 				INFOPLIST_FILE = RootControllerNavigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobdev.RootControllerNavigation;
@@ -441,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MH7ZMWJX5;
 				INFOPLIST_FILE = RootControllerNavigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobdev.RootControllerNavigation;
